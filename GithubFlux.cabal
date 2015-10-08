@@ -1,0 +1,14 @@
+Name:            GithubFlux
+Version:         0.0
+Cabal-Version:   >= 1.2
+License:         MIT
+Author:          Joel Howard
+Synopsis:        get the jsons for the repos on githubs
+Build-Type:      Simple
+
+
+Executable github-flux
+  Main-Is:         Main.hs
+  Hs-Source-Dirs:  src
+  Build-Depends:   haskell2010, process, http-conduit, bytestring, transformers
+  extensions:      OverloadedStrings
